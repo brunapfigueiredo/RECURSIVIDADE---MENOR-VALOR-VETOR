@@ -22,10 +22,27 @@ public class MenorValor {
 }
 
 //TESTE DE MESA
-
 //vetor [6, 4, 1, 9, 10, 2]
 //tamanho = 6
-//menor = tamanho - 1 (posição)
+//menor = tamanho - 1 = 2
 
-//menor 2
-// [6]
+//menor = 2
+//[6, 4, 1, 9, 10]
+//2 < [10]
+
+//menor = 2
+//[6, 4, 1, 9]
+//2 < [9]
+
+//menor = 2
+//[6, 4, 1]
+//2 > [1]
+
+//menor = 1
+//[6, 4]
+//1 < [4]
+
+//menor = 1
+//[6]
+//1 < [6]
+//posição 0, retorna o menor valor
